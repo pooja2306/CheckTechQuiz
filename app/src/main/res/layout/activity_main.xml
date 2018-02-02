@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pooja2306.checktechquiz.MainActivity"
+    android:background="@drawable/background2">
+<ImageView
+    android:layout_width="150dip"
+    android:layout_height="150dip"
+    android:src="@drawable/logo2"
+    android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login Form"
+        android:textStyle="italic"
+        android:textSize="30dip"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"/>
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dip"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_height="55dip"
+            android:layout_width="55dip"
+            android:src="@drawable/uname"
+       />
+        <EditText
+            android:layout_marginLeft="15dip"
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:textSize="25dip"
+            android:hint="Enter User Name"
+            android:id="@+id/etUser"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dip"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_height="55dip"
+            android:layout_width="55dip"
+            android:src="@drawable/pass"
+            />
+        <EditText
+            android:layout_marginLeft="15dip"
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:textSize="25dip"
+            android:inputType="textPassword"
+            android:hint="Enter Password"
+            android:id="@+id/etPwd"
+            />
+    </LinearLayout>
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Not registered yet? Sign-up!"
+        android:gravity="center_horizontal"
+        android:textSize="25dip"
+        android:id="@+id/txtSignup"/>
+    <Button
+        android:layout_marginTop="20dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Login"
+        android:id="@+id/btnLogin"
+        android:textSize="20dip"/>
+</LinearLayout>

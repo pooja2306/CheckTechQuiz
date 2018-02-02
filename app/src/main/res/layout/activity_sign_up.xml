@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sign_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pooja2306.checktechquiz.SignUp"
+    android:background="@drawable/background2">
+    <ImageView
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:src="@drawable/logo2"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register here"
+        android:textStyle="italic"
+        android:textSize="30dip"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"/>
+
+        <EditText
+            android:layout_width="360dip"
+            android:layout_marginLeft="5dip"
+            android:layout_height="wrap_content"
+            android:textSize="25dip"
+            android:hint="First name"
+            android:id="@+id/etFirst"
+            />
+    <EditText
+        android:layout_marginLeft="5dip"
+        android:layout_width="360dip"
+        android:layout_height="wrap_content"
+        android:textSize="25dip"
+        android:hint="Last name"
+        android:id="@+id/etLast"
+        />
+
+    <EditText
+        android:layout_marginLeft="5dip"
+        android:layout_width="360dip"
+        android:layout_height="wrap_content"
+        android:textSize="25dip"
+        android:hint="Email address"
+        android:id="@+id/etEmail"
+        /><EditText
+    android:layout_marginLeft="5dip"
+    android:layout_width="360dip"
+    android:layout_height="wrap_content"
+    android:textSize="25dip"
+    android:hint="Password"
+    android:inputType="textPassword"
+    android:id="@+id/etPass"
+    />
+    <EditText
+    android:layout_marginLeft="5dip"
+    android:layout_width="360dip"
+    android:layout_height="wrap_content"
+    android:textSize="25dip"
+    android:hint="Confirm Password"
+        android:inputType="textPassword"
+    android:id="@+id/etCPass"
+    />
+    <EditText
+        android:layout_marginLeft="5dip"
+        android:layout_width="360dip"
+        android:layout_height="wrap_content"
+        android:textSize="25dip"
+        android:hint="Contact Number"
+        android:id="@+id/etContact"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Register"
+        android:id="@+id/btnReg"
+        android:textSize="17dip"
+        android:background="@drawable/oval"/>
+
+
+</LinearLayout>
